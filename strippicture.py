@@ -1,7 +1,7 @@
 from PIL import Image
 import random
 
-print("Wie viel Kaos soll es geben")
+print("inpact (1 - unlimited)?")
 cause = input()
 
 if cause == "":
@@ -9,7 +9,7 @@ if cause == "":
 else:
     cause = int(cause)
 
-print("Wie groß soll das Bild sein?(240p/360p/480p/720p/1080p/1440p/4k/8k)")
+print("how big? (240p / 360p / 480p / 720p / 1080p / 1440p / 4k / 8k)")
 pie = input()
 if pie == "240p":
     width = 426

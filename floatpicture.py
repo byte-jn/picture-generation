@@ -1,6 +1,6 @@
 from PIL import Image
 
-print("Wie groß soll das Bild sein?(240p/360p/480p/720p/1080p/1440p/4k/8k)")
+print("how big? (240p / 360p / 480p / 720p / 1080p / 1440p / 4k / 8k)")
 p=input()
 width = 255
 height = 255
@@ -33,20 +33,22 @@ elif p == "8k":
 x = 0
 y = 0
 z = 0
-color = input("Welche Farbe soll es sein...")
-if color == "lila":
+
+print("which color? (red / blue / yellow / green / cyan / violete)")
+color = input()
+if color == "violete":
     r=255
     b=255
     g=0
-elif color == "rot":
+elif color == "red":
     r=255
     b=0
     g=0
-elif color == "blau":
+elif color == "blue":
     r=0
     b=255
     g=0
-elif color == "gelb":
+elif color == "yellow":
     r=255
     b=0
     g=255
